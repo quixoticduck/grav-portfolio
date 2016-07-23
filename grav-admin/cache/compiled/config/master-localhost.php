@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1469267432,
-    'checksum' => '3875b60acbe03c43f3bd8b1680403810',
+    'timestamp' => 1469278448,
+    'checksum' => 'cff42a708994856323c401dbfb21d5ce',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1468689106
+                'modified' => 1469278448
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -462,10 +462,10 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Clara Alder',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Clara Alder',
+                'email' => 'quixoticduck@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',

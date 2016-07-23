@@ -1,4 +1,133 @@
 /*Your styles goes here*/
-body {
-    background-color: green;
+
+.testy {color:blue;}
+
+ul {
+	list-style: none;
 }
+
+/*Element styles*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	background-color: #fefefe;
+	color: #333333;
+}
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+a {
+	color: #de1977;
+	text-decoration: none;
+}
+a:hover {
+	color: #63186C;
+}
+p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Global styles*/
+.Header {
+	background-color: #d51270;
+}
+.Navigation {
+	list-style: none;
+	padding-left: 0;
+}
+.Navigation li {
+	padding-right: 15px;
+	display: inline-block;
+}
+.Navigation li a {
+	font-size: 17px;
+	color: #ffffff;
+}
+.Navigation li a:hover {
+	text-decoration: underline;
+}
+.Navigation-current {
+	color: #d3d3d3;
+	font-weight: 700;
+}
+.Container {
+	padding: 10px;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.List-noBullets {
+	list-style: none;
+	padding-left: 0;
+}
+
+/*Component styles*/
+.Photo {
+	border-radius: 300px;
+	max-width: 200px;
+	margin: 10px auto 20px auto;
+	display: block;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.Cards {
+	padding: 0;
+	margin: 0;
+}
+.Card {
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+	list-style: none;
+}
+.Card-title {
+	padding: 0px 10px 7px 10px;
+	display: block;
+}
+.Card-info {
+	font-size: 16px;
+	min-height: 100px;
+	padding: 20px;
+}
+.Card-image {
+	max-width: 100%;
+}
+.Card-info .Card-title {
+	font-weight: 700;
+}
+.Social-link a {
+	padding: 5px;
+	border: 2px solid #de1977;
+	margin-bottom: 10px;
+	display: inline-block;
+	min-width: 130px;
+	font-size: 15px;
+}
+.Social-link a:hover {
+	border-color: #63186C;
+}
+
+/*Media queries*/
