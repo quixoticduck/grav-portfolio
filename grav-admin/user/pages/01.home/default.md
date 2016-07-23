@@ -15,31 +15,31 @@ title: Home
 <main class="Container">
     <h1>Clara Alder, person.</h1>
       <img title="" alt="Clara Alder" class="Photo" src="../images/clara-photo-football-cropped.jpg" />
-    <p>Hey, I'm Clara. Nullam ultrices ex leo. Cras sit amet urna nec enim varius facilisis. Proin vitae tortor sit amet massa gravida rutrum in et magna. Donec augue nunc, auctor in eros non, commodo suscipit turpis. Proin lobortis augue quis augue varius malesuada. Praesent nec mauris ut arcu tincidunt scelerisque. Praesent mollis metus in maximus condimentum. Aliquam rhoncus ullamcorper massa. Nulla varius arcu sed dolor cursus, sed tristique dui molestie. </p>
-    <div class="testy">testy</div><!--/.testy-->
-            <p>Hey, I'm Margaret. I have a B.A. degree in mathematics with a minor in philosophy from Earlham College and I've been learning to code for the last 12 months. I've recently started working as a junior computer scientist and systems engineer in Boston
-            and I use this website to document everything I learn and the projects I work on. When I'm not at work I compete in rowing races throughout America.</p>
-        <h2>Learnings</h2>
+      <img title="" alt="Roundhill Bookkeeping Website" class="Photo" src="../images/roundhill.jpg" />
+            <p>Hey, I'm Clara. Nullam ultrices ex leo. Cras sit amet urna nec enim varius facilisis. Proin vitae tortor sit amet massa gravida rutrum in et magna. Donec augue nunc, auctor in eros non, commodo suscipit turpis. Proin lobortis augue quis augue varius malesuada. Praesent nec mauris ut arcu tincidunt scelerisque. Praesent mollis metus in maximus condimentum. Aliquam rhoncus ullamcorper massa. Nulla varius arcu sed dolor cursus, sed tristique dui molestie. </p>
+            <div class="testy">testy</div><!--/.testy-->
+        <h2>Some work</h2>
         <ul class="Cards Grid">
             <li class="Card-item Grid-item Grid-third">
                 <div class="Card-info">
-                    <h3 class="Class-title">Something you learnt at codebar or somewhere else.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, perferendis.</p>
-                    <a href="">Go to project ></a>
+                    <h3 class="Class-title">Bookkeeping website.</p>
+                    <a href="http://roundhillbookkeeping.co.uk/">Go to project </a>
+                    <img title="" alt="Roundhill Bookkeeping Website" class="thumby" src="../images/roundhill.jpg" />
+                    ![](roundhill.jpg)![](lizdean.png)
                 </div>
                 <!--Card-info-->
             </li><!--Card-item-->
             <li class="Card-item Grid-item Grid-third">
                 <div class="Card-info">
-                    <h3 class="Class-title">How you found yourself learning to code.</h3>
+                    <h3 class="Class-title">Health Promotion Website.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, perferendis.</p>
-                    <a href="">Go to project ></a>
+                    <a href="http://lizdeanconsultancy.co.uk/">Go to project ></a>
                 </div>
                 <!--Card-info-->
             </li><!--Card-item-->
             <li class="Card-item Grid-item Grid-third">
                 <div class="Card-info">
-                    <h3 class="Class-title">A review of a web related book you read or conference you attended.</h3>
+                    <h3 class="Class-title">Coming soon.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <a href="">Go to project ></a>
                 </div>
@@ -47,10 +47,10 @@ title: Home
             </li><!--Card-item-->
         </ul><!--/.Grid-->
         <!--Cards-->
-        <h3>Elsewhere</h3>
+        <h3>Social Media</h3>
     <ul class="List-noBullets">
         <li class="Social-link"><a class="Social-link" href="">Twitter</a></li>
-        <li class="Social-link"><a class="Social-link" href="">Instagram</a></li>
+<!--         <li class="Social-link"><a class="Social-link" href="">Instagram</a></li> -->
         <li class="Social-link"><a class="Social-link" href="">LinkedIn</a></li>
     </ul>
     </main>
