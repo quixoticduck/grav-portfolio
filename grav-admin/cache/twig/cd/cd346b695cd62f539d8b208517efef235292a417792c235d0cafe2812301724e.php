@@ -1,6 +1,6 @@
 <?php
 
-/* @Page:/Users/claraalder/gitHub/portfolio/grav-admin/user/plugins/error/pages */
+/* @Page:C:\Users\Clara\GitHub\grav-portfolio\grav-admin\user\plugins\error/pages */
 class __TwigTemplate_8fa8570e11c605beb6a3606cc00c2067080c2c62e019466c0c1738e065e8fb45 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -21,7 +21,7 @@ class __TwigTemplate_8fa8570e11c605beb6a3606cc00c2067080c2c62e019466c0c1738e065e
 
     public function getTemplateName()
     {
-        return "@Page:/Users/claraalder/gitHub/portfolio/grav-admin/user/plugins/error/pages";
+        return "@Page:C:\\Users\\Clara\\GitHub\\grav-portfolio\\grav-admin\\user\\plugins\\error/pages";
     }
 
     public function isTraitable()
