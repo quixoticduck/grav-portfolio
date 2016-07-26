@@ -80,7 +80,4 @@ title: Home
     </ul>
     </main>
 </body>
-    
-</main>
-</body>
 </html>
