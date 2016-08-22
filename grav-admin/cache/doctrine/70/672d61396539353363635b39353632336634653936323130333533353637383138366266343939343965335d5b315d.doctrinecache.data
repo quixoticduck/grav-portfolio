@@ -1,0 +1,29 @@
+1472440817
+a:2:{s:7:"content";s:1094:"<div class="modular-row callout">
+        <main class="Container">
+      <h2>Game Jam</h2>
+        <ul class="Cards Grid">
+            <li class="Card-item Grid Item Grid-whole">
+                <div class="Card-info">
+                    <h3 class="Class-title">Brituals</h3>
+                        <embed src="http://britual.eu-1.evennode.com/" style="width:1000px; height: 762px;">
+                </div><!--Card-info-->
+            </li><!--Card-item-->
+        </ul><!--/.Cards Grid-->
+<!-- SECTION BREAK -->
+<!--         <h2>Game Jam</h2>
+        <ul class="Cards Grid">
+            <li class="Card-item Grid-whole">
+                <div class="Card-info">
+                    <h3 class="Class-title">Brituals</h3>
+                        <iframe src="http://britual.eu-1.evennode.com/" width="100%" height="766">
+                          <p>Your browser does not support iframes.</p>
+                        </iframe>
+                </div><!--Card-info-->
+            <!-- </li> --><!--Card-item-->
+        <!-- </ul> --><!--/.Cards Grid--> 
+    </main>
+<p></body>
+</html></p>
+</div>
+";s:12:"content_meta";N;}

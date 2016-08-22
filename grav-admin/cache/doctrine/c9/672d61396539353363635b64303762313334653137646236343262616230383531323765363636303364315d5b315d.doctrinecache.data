@@ -1,8 +1,6 @@
----
-title: Websites
----
-
-<main class="Container">
+1472440817
+a:2:{s:7:"content";s:2146:"<div class="modular-row showcase">
+    <main class="Container">
     <h2>Some Website Work</h2>
         <ul class="Cards Grid">
             <li class="Card-item Grid-item Grid-half">
@@ -36,5 +34,9 @@ title: Websites
             </li><!--Card-item-->
         </ul><!--/.Cards Grid-->
     </main>
-</body>
-</html>
+<p></body>
+</html></p>
+
+    
+</div>
+";s:12:"content_meta";N;}

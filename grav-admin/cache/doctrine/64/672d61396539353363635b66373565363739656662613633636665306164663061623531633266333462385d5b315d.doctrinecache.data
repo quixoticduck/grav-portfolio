@@ -1,8 +1,6 @@
----
-title: Artwork
----
-
-<main class="Container">
+1472440681
+a:2:{s:7:"content";s:8899:"<div class="modular-row features ">
+    <main class="Container">
     <h2>Artwork</h2>
         <ul class="Cards Grid">
             <li class="Card-item Grid Item Grid-half">
@@ -55,5 +53,9 @@ title: Artwork
             </li><!--Card-item-->
         </ul><!--/.Cards Grid-->
 </main>
-</body>
-</html>
+<p></body>
+</html></p>
+    <div class="feature-items">
+        </div>
+</div>
+";s:12:"content_meta";N;}

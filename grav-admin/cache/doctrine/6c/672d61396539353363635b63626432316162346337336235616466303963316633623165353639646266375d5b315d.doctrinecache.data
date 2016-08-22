@@ -1,0 +1,23 @@
+1472440615
+a:2:{s:7:"content";s:602:"<h1>Error: Invalid Frontmatter</h1>
+<p>Path: <code>C:/Users/Clara/GitHub/grav-portfolio/grav-admin/user/pages/02.modular-test/modular.md</code></p>
+<p><strong>A YAML file cannot contain tabs as indentation at line 12 (near " - _main").</strong></p>
+<pre><code>---
+title: One Page Demo Site
+menu: Home Modular
+onpage_menu: true
+body_classes: "modular header-image fullwidth"
+
+content:
+    items: @self.modular
+    order:
+        by: default
+        dir: asc
+        custom:
+            - _main
+            - _websites
+            - _artwork
+            - _games
+            - _features
+---
+</code></pre>";s:12:"content_meta";N;}

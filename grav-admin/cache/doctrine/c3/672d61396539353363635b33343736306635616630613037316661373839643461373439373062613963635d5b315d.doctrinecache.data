@@ -1,9 +1,6 @@
----
-title: Games
-image_align: left
----
-
-<main class="Container">
+1472441472
+a:2:{s:7:"content";s:2526:"<div class="modular-row callout">
+        <main class="Container">
       <h2>Game Jam</h2>
         <ul class="Cards Grid">
             <li class="Card-item Grid Item Grid-whole">
@@ -30,13 +27,13 @@ image_align: left
         <ul class="Cards Grid">
             <li class="Card-item Grid Item Grid-whole">
                 <div class="Card-info">
-                    <h3 class="Class-title">Unity WIP</h3>
+                    <h3 class="Class-title">Brituals</h3>
                         <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">2D Aardvark is super happy to star in a *very* professional game thanks to <a href="https://twitter.com/reallyfancy">@reallyfancy</a> and <a href="https://twitter.com/_ikouyo">@_ikouyo</a> at <a href="https://twitter.com/makeplaycode">@makeplaycode</a> <a href="http://t.co/5N4obVd1pR">pic.twitter.com/5N4obVd1pR</a></p>&mdash; Clara (@claraalder) <a href="https://twitter.com/claraalder/status/634152190458896384">August 19, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div><!--Card-info-->
             </li><!--Card-item-->
         </ul><!--/.Cards Grid-->
 
-      <h2>Unity WIP</h2>
+      <h2>Game Jam</h2>
         <ul class="Cards Grid">
             <li class="Card-item Grid Item Grid-whole">
                 <div class="Card-info">
@@ -46,5 +43,7 @@ image_align: left
             </li><!--Card-item-->
         </ul><!--/.Cards Grid-->
     </main>
-</body>
-</html>
+<p></body>
+</html></p>
+</div>
+";s:12:"content_meta";N;}

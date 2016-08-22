@@ -16,26 +16,6 @@ title: Home
       <img title="" alt="Clara Alder" class="Photo" src="../images/clara-photo-football-cropped.jpg" />
             <p>Hey, I'm Clara. Nullam ultrices ex leo. Cras sit amet urna nec enim varius facilisis. Proin vitae tortor sit amet massa gravida rutrum in et magna. Donec augue nunc, auctor in eros non, commodo suscipit turpis. Proin lobortis augue quis augue varius malesuada. Praesent nec mauris ut arcu tincidunt scelerisque. Praesent mollis metus in maximus condimentum. Aliquam rhoncus ullamcorper massa. Nulla varius arcu sed dolor cursus, sed tristique dui molestie. </p>
         <h2>Lalalala</h2>
-        <ul class="Cards Grid">
-            <li class="Card-item Grid-item Grid-third">
-                <div class="Card-info">
-                    <h3 class="Class-title">lALALA.</p>
-                </div><!--Card-info-->
-            </li><!--Card-item-->
-            <li class="Card-item Grid-item Grid-third">
-                <div class="Card-info">
-                    <h3 class="Class-title">Health Promotion Website.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, perferendis.</p>
-                </div><!--/.Card-info-->
-            </li><!--Card-item-->
-            <li class="Card-item Grid-item Grid-third">
-                <div class="Card-info">
-                    <h3 class="Class-title">Coming soon.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <a href="">Go to project ></a>
-                </div><!--Card-info-->
-            </li><!--Card-item-->
-        </ul><!--/.Cards Grid-->
 <!-- SECTION BREAK -->
         <h2>Some Website Work</h2>
         <ul class="Cards Grid">
@@ -91,6 +71,26 @@ title: Home
                 </div><!--Card-info-->
             <!-- </li> --><!--Card-item-->
         <!-- </ul> --><!--/.Cards Grid--> 
+
+      <h2>Game Jam</h2>
+        <ul class="Cards Grid">
+            <li class="Card-item Grid Item Grid-whole">
+                <div class="Card-info">
+                    <h3 class="Class-title">Unity WIP</h3>
+                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">2D Aardvark is super happy to star in a *very* professional game thanks to <a href="https://twitter.com/reallyfancy">@reallyfancy</a> and <a href="https://twitter.com/_ikouyo">@_ikouyo</a> at <a href="https://twitter.com/makeplaycode">@makeplaycode</a> <a href="http://t.co/5N4obVd1pR">pic.twitter.com/5N4obVd1pR</a></p>&mdash; Clara (@claraalder) <a href="https://twitter.com/claraalder/status/634152190458896384">August 19, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div><!--Card-info-->
+            </li><!--Card-item-->
+        </ul><!--/.Cards Grid-->
+
+      <h2>Unity WIP</h2>
+        <ul class="Cards Grid">
+            <li class="Card-item Grid Item Grid-whole">
+                <div class="Card-info">
+                    <h3 class="Class-title">Unity WIP</h3>
+                        <embed src="https://dl.dropboxusercontent.com/s/443dgfncgwypjvk/2D%20Aardvark%20The%20Game%20Canvas2Web.html" style="width:1000px; height: 762px;">
+                </div><!--Card-info-->
+            </li><!--Card-item-->
+        </ul><!--/.Cards Grid-->
 <!-- SECTION BREAK -->
         <h2>Artwork</h2>
         <ul class="Cards Grid">

@@ -10,10 +10,12 @@ content:
         by: default
         dir: asc
         custom:
+            - _main
             - _websites
             - _artwork
             - _games
-            - _features
+            - _other
+            - _socialmedia           
 ---
 
 
