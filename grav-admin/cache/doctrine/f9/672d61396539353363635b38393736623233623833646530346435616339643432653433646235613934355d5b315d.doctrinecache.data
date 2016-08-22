@@ -1,8 +1,5 @@
----
-title: Home
----
-
-<html lang="en">
+1472438834
+a:2:{s:7:"content";s:6157:"<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Clara Alder</title>
@@ -94,7 +91,7 @@ title: Home
             </li><!--Card-item-->
         </ul><!--/.Cards Grid-->
 <!-- SECTION BREAK -->
-<!--         <h2>Game Jam</h2>
+        <h2>Game Jam</h2>
         <ul class="Cards Grid">
             <li class="Card-item Grid-whole">
                 <div class="Card-info">
@@ -103,8 +100,8 @@ title: Home
                           <p>Your browser does not support iframes.</p>
                         </iframe>
                 </div><!--Card-info-->
-            <!-- </li> --><!--Card-item-->
-        <!-- </ul> --><!--/.Cards Grid--> -->
+            </li><!--Card-item-->
+        </ul><!--/.Cards Grid-->
 <!-- SECTION BREAK -->
         <h3>Social Media</h3>
     <ul class="List-noBullets">
@@ -114,4 +111,4 @@ title: Home
     </ul>
     </main>
 </body>
-</html>
+</html>";s:12:"content_meta";N;}
