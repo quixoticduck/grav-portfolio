@@ -1,6 +1,14 @@
-1472435972
-a:2:{s:7:"content";s:4172:"<div class="modular-row features ">
-    <main class="Container">
+1472435958
+a:2:{s:7:"content";s:4322:"<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clara Alder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><!--To make the site responsive-->
+</head>
+<body>
+<!-- <header>
+</header> -->
+<main class="Container">
     <h1>Clara Alder, person.</h1>
       <img title="" alt="Clara Alder" class="Photo" src="../images/clara-photo-football-cropped.jpg" />
             <p>Hey, I'm Clara. Nullam ultrices ex leo. Cras sit amet urna nec enim varius facilisis. Proin vitae tortor sit amet massa gravida rutrum in et magna. Donec augue nunc, auctor in eros non, commodo suscipit turpis. Proin lobortis augue quis augue varius malesuada. Praesent nec mauris ut arcu tincidunt scelerisque. Praesent mollis metus in maximus condimentum. Aliquam rhoncus ullamcorper massa. Nulla varius arcu sed dolor cursus, sed tristique dui molestie. </p>
@@ -68,9 +76,5 @@ a:2:{s:7:"content";s:4172:"<div class="modular-row features ">
         <li class="Social-link"><a class="Social-link" href="https://uk.linkedin.com/in/clara-alder-0832b823">LinkedIn</a></li>
     </ul>
     </main>
-<p></body>
-</html></p>
-    <div class="feature-items">
-        </div>
-</div>
-";s:12:"content_meta";N;}
+</body>
+</html>";s:12:"content_meta";N;}

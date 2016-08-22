@@ -87,9 +87,11 @@ class __TwigTemplate_1f74f2cda94c629a8bdac7ea745d9defc0af5fe5d48958638826bd640dd
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "collection", array(), "method"));
             foreach ($context['_seq'] as $context["_key"] => $context["module"]) {
                 // line 33
-                echo "            ";
-                $context["current_module"] = ((($this->getAttribute($context["module"], "active", array()) || $this->getAttribute($context["module"], "activeChild", array()))) ? ("active") : (""));
+                echo "
+            ";
                 // line 34
+                $context["current_module"] = ((($this->getAttribute($context["module"], "active", array()) || $this->getAttribute($context["module"], "activeChild", array()))) ? ("active") : (""));
+                // line 35
                 echo "            <li class=\"";
                 echo (isset($context["current_module"]) ? $context["current_module"] : null);
                 echo "\"><a href=\"#";
@@ -97,45 +99,21 @@ class __TwigTemplate_1f74f2cda94c629a8bdac7ea745d9defc0af5fe5d48958638826bd640dd
                 echo "\">";
                 echo $this->getAttribute($context["module"], "menu", array());
                 echo "</a></li>
+
         ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 36
+            // line 38
             echo "        ";
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "menu", array()));
-            foreach ($context['_seq'] as $context["_key"] => $context["mitem"]) {
-                // line 37
-                echo "            <li>
-                <a href=\"";
-                // line 38
-                echo $this->getAttribute($context["mitem"], "url", array());
-                echo "\">
-                    ";
-                // line 39
-                if ($this->getAttribute($context["mitem"], "icon", array())) {
-                    echo "<i class=\"fa fa-";
-                    echo $this->getAttribute($context["mitem"], "icon", array());
-                    echo "\"></i>";
-                }
-                // line 40
-                echo "                    ";
-                echo $this->getAttribute($context["mitem"], "text", array());
-                echo "
-                </a>
-            </li>
-        ";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['mitem'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 44
-            echo "        </ul>
+            $context["active"] = ((($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "active", array()) || $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "activeChild", array()))) ? ("active") : (""));
+            // line 39
+            echo "         <li><a href=\"/blog\">Blog</a></li>
+    </ul>
     ";
         } else {
-            // line 46
+            // line 42
             echo "        ";
             $this->displayParentBlock("header_navigation", $context, $blocks);
             echo "
@@ -143,24 +121,24 @@ class __TwigTemplate_1f74f2cda94c629a8bdac7ea745d9defc0af5fe5d48958638826bd640dd
         }
     }
 
-    // line 50
+    // line 46
     public function block_content($context, array $blocks = array())
     {
-        // line 51
+        // line 47
         echo "    ";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
     ";
-        // line 52
+        // line 48
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "collection", array(), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["module"]) {
-            // line 53
+            // line 49
             echo "        <div id=\"";
             echo $this->getAttribute($this, "pageLinkName", array(0 => $this->getAttribute($context["module"], "menu", array())), "method");
             echo "\"></div>
         ";
-            // line 54
+            // line 50
             echo $this->getAttribute($context["module"], "content", array());
             echo "
     ";
@@ -208,7 +186,7 @@ class __TwigTemplate_1f74f2cda94c629a8bdac7ea745d9defc0af5fe5d48958638826bd640dd
 
     public function getDebugInfo()
     {
-        return array (  174 => 4,  164 => 54,  159 => 53,  155 => 52,  150 => 51,  147 => 50,  139 => 46,  135 => 44,  124 => 40,  118 => 39,  114 => 38,  111 => 37,  106 => 36,  93 => 34,  90 => 33,  86 => 32,  83 => 31,  80 => 30,  77 => 29,  63 => 17,  61 => 16,  56 => 15,  53 => 14,  46 => 10,  43 => 9,  40 => 8,  37 => 7,  34 => 6,  30 => 1,  28 => 3,  11 => 1,);
+        return array (  152 => 4,  142 => 50,  137 => 49,  133 => 48,  128 => 47,  125 => 46,  117 => 42,  112 => 39,  109 => 38,  95 => 35,  93 => 34,  90 => 33,  86 => 32,  83 => 31,  80 => 30,  77 => 29,  63 => 17,  61 => 16,  56 => 15,  53 => 14,  46 => 10,  43 => 9,  40 => 8,  37 => 7,  34 => 6,  30 => 1,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -243,18 +221,14 @@ class __TwigTemplate_1f74f2cda94c629a8bdac7ea745d9defc0af5fe5d48958638826bd640dd
 /*     {% if show_onpage_menu %}*/
 /*         <ul class="navigation">*/
 /*         {% for module in page.collection() %}*/
+/* */
 /*             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}*/
 /*             <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>*/
+/* */
 /*         {% endfor %}*/
-/*         {% for mitem in site.menu %}*/
-/*             <li>*/
-/*                 <a href="{{ mitem.url }}">*/
-/*                     {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}*/
-/*                     {{ mitem.text }}*/
-/*                 </a>*/
-/*             </li>*/
-/*         {% endfor %}*/
-/*         </ul>*/
+/*         {% set active = (page.active or page.activeChild) ? 'active' : '' %}*/
+/*          <li><a href="/blog">Blog</a></li>*/
+/*     </ul>*/
 /*     {% else %}*/
 /*         {{  parent() }}*/
 /*     {% endif %}*/

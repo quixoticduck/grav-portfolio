@@ -163,7 +163,7 @@
 			"file": "user/themes/antimatter/css/custom.css",
 			"settings":
 			{
-				"buffer_size": 3150,
+				"buffer_size": 3174,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,8 +171,8 @@
 			"file": "user/pages/01.home/default.md",
 			"settings":
 			{
-				"buffer_size": 3010,
-				"line_ending": "Windows"
+				"buffer_size": 4343,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -224,13 +224,15 @@
 		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin",
 		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user",
 		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/pages",
-		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/pages/01.home",
 		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/themes",
 		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/themes/antimatter",
 		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/themes/antimatter/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/pages/02.modular-test/_artwork/features.md",
+		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/pages/02.modular-test/_games/text.md",
+		"/C/Users/Clara/GitHub/grav-portfolio/grav-admin/user/pages/02.modular-test/_websites/showcase.md",
 		"/C/Users/Clara/Dropbox/Webinar outlook reminders/2. Webinar_Reminder_CrossConsense_pm30.ics",
 		"/C/Users/Clara/Dropbox/Webinar outlook reminders/1. Webinar_Reminder_CrossConsense_am30.ics",
 		"/C/Users/Clara/Google Drive/00. Work shared w Duck/eJournal text Ops.txt",
@@ -355,14 +357,11 @@
 		"/C/Users/Clara/Dropbox/Webinar outlook reminders/4. Webinar_Reminder_Conduce_pm00.ics",
 		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/indexBlurJS.html",
 		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/simpledemo.html",
-		"/C/Users/Clara/GitHub/liz-site/craft/app/resources/js/compressed/craft.js",
-		"/C/Users/Clara/GitHub/liz-site/craft/app/Info.php",
-		"/C/Users/Clara/GitHub/liz-site/craft/app/index.php",
-		"/C/Users/Clara/GitHub/liz-site/craft/app/bootstrap.php"
+		"/C/Users/Clara/GitHub/liz-site/craft/app/resources/js/compressed/craft.js"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -377,6 +376,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contain",
+			"main",
+			"mainc",
+			"third",
+			"font",
+			"98",
+			"comp",
 			"20px",
 			"padding 30",
 			"modular",
@@ -497,14 +503,7 @@
 			"min",
 			"h3 {",
 			"h3",
-			"h3 {",
-			"green",
-			"purple",
-			"tinymin",
-			"tinym",
-			"phonemin",
-			"tinymin",
-			"break"
+			"h3 {"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -529,7 +528,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -538,15 +537,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3150,
+						"buffer_size": 3174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1342,
+								1324
 							]
 						],
 						"settings":
@@ -630,10 +629,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 257.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -642,15 +641,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3010,
+						"buffer_size": 4343,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4343,
+								273
 							]
 						],
 						"settings":
@@ -673,56 +672,56 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -738,7 +737,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
